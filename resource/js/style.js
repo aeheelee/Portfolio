@@ -77,23 +77,6 @@ function imgMotion(){
 	$slideUl.eq(slideCnt).next().attr("data-status" , "next");
 };
 
-// 스크롤 모션 관련 변수
-//var isPosition = false;
-//var scrollPosArr = [];
-//var currentTop;
-//var pureScroll;
-//var $el = $('.parallax-background');
-
-/*
-$(window).on("load" , function(){
-	//각 섹션 offset 저장
-	$("#container").find(".section").each(function(index,item){
-		scrollPosArr.push($(item).offset().top);
-	});
-	$(window).trigger("scroll");
-});
-*/
-
 if(!$('.sec01').is(".active")){
 	setTimeout(function(){
 		sec01SlideFunc();
