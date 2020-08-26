@@ -37,7 +37,7 @@ $SlideTab.on("click" , function(e){
 	slideInterval = setInterval(function(){
 		slideCnt += 1;	
 		sec01SlideFunc();
-	},5000);
+	},7000);
 });
 
 // portfolio sec01 슬라이드 실행 함수
